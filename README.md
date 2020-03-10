@@ -18,7 +18,7 @@ When the command is called with a `name` and `location` it checks that the locat
 
 If only a `name`' is specified, the command retrieves the `location`and checks that the file or folder exists. In both cases the location is stored in a local macro `r(name)` using the name of the resource.
 
-If the command is called with no arguments it lists all resgistered resources.
+If the command is called with no arguments it lists all registered resources.
 
 The resources are stored in a text file called `whereis.dir`, created in the same location as `whereis` itself. This is typically the PLUS folder and you need to have write access to it.
 
